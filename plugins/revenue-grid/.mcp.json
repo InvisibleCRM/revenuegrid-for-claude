@@ -1,0 +1,8 @@
+{
+    "mcpServers": {
+        "revenue-grid": {
+            "type": "http",
+            "url": "https://mcp.revenuegrid.com/mcp"
+        }
+    }
+}

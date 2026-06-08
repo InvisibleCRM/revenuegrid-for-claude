@@ -2,8 +2,15 @@
     "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
     "name": "revenue-grid",
     "description": "Official Revenue Grid plugins for Claude",
-    "version": "0.0.1",
     "owner": {
         "name": "Revenue Grid"
-    }
+    },
+    "plugins": [
+        {
+            "name": "revenue-grid",
+            "description": "Revenue Grid plugin",
+            "source": "./plugins/revenue-grid",
+            "category": "productivity"
+        }
+    ]
 }
