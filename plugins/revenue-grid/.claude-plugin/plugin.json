@@ -1,8 +1,10 @@
 {
     "name": "revenue-grid",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Revenue Grid plugin",
     "author": {
         "name": "Revenue Grid"
-    }
+    },
+    "icon": "./icon.svg",
+    "privacyPolicyUrl": "https://revenuegrid.com/privacy-policy/"
 }
