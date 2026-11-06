@@ -5,7 +5,7 @@
 This plugin gives Claude access to Revenue Grid's **Revenue Action Platform (RAP)** via the MCP protocol. It provides:
 
 - **MCP tools** for querying CRM records, meetings, emails, facts, action items, and pipeline artifacts — and for writing CRM updates safely.
-- **Two skills** that activate automatically to guide Claude through RAP concepts and workflows.
+- **A skill** that activates automatically to guide Claude through RAP data and common tasks.
 
 ## MCP Server
 
@@ -21,15 +21,9 @@ The MCP server exposes tools for CRM queries, meeting artifacts, email lists, ac
 
 ### `revenue-grid-platform`
 
-Foundational knowledge skill covering RAP's core concepts. Activates automatically when a user asks about how RAP works, what artifacts mean, how facts accumulate, or how intelligent linking operates.
+Covers how RAP data fits together and how to query it: CRM records, emails, meetings, facts, and AI outputs. It includes task recipes for record briefs, meetings, emails, pipeline and team views, stakeholders, action items, and CRM updates. It activates for any question about the user's accounts, deals, contacts, meetings, emails, pipeline, or team.
 
 See [`skills/revenue-grid-platform/README.md`](skills/revenue-grid-platform/README.md) for details.
-
-### `revenue-grid-workflows`
-
-Operational workflow skill providing step-by-step MCP tool sequences for common RAP tasks. Activates when a user asks to summarize a record, review a meeting, inspect action items, or update CRM fields.
-
-See [`skills/revenue-grid-workflows/README.md`](skills/revenue-grid-workflows/README.md) for details.
 
 ## Prerequisites
 
